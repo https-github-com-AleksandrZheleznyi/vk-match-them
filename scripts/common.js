@@ -25,11 +25,6 @@ var environment = {
     }
 };
 
-// Localization
-var enabledDefaultLanguage = false;
-var defaultLanguageCode = "ru";
-
-// Config
 function LoadConfig(successCallback, errorCallback)
 {
     if(cachedConfigFile != null)
