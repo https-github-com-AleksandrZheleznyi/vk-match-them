@@ -3,7 +3,7 @@ var IsMobilePlatform = false;
 let cachedConfigFile = null;
 let configUrl = 'https://spgames.s3.ap-south-1.amazonaws.com/match-them/vkgames/0.1/RemoteConfig.json';
 var showedRewardVideo = false;
-var commonPlatformEnvironment = {
+var environment = {
     appId: "",
     payload: "",
     screen: {

@@ -156,10 +156,10 @@ function GetLanguageCode()
     return navigator.language || navigator.userLanguage;
 }
 
+// Envorinment
 function GetEnvironmentJson()
 {
-    return JSON.stringify(commonPlatformEnvironment);
+    return JSON.stringify(environment);
 }
-
 
 BridgeInitialize();
